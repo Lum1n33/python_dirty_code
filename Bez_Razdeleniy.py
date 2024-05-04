@@ -2,7 +2,7 @@ print("Привет! Это плохо написанная программа."
 name = input("Введите ваше имя: ")
 print(f"Привет, {name}!")
 
-filename = "sample.txt"
+filename = "test"
 try:
     with open(filename, 'r') as file:
         content = file.read()
